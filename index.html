@@ -278,7 +278,7 @@
       </div>
     </section>
 
-    <section class="designProcess container">
+    <section class="designProcess container position-static">
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-6">
           <h2 class="fw-bold mb-4">
@@ -333,7 +333,7 @@
                 class="img-icon d-flex align-items-center justify-content-center mr-3"
               >
                 <img
-                  src="images/execute.png"
+                  src="images/Execute.png"
                   alt="Step 3"
                   class="step-icon"
                   style="width: 40px; height: 40px"
@@ -363,77 +363,85 @@
       </div>
     </section>
 
-    <section class="about-us position-relative my-5 h-auto mb-5">
-      <div class="container my-5 h-auto position-relative">
-        <h2 class="fw-semibold text-center mb-5">What Our Customers Say About Us</h2>
-        <div class="about-us-img col-lg-6  d-lg-block">
-          <img src="images/Mask group (1).png" class="w-100" alt="">
-        </div>
-        <div class="row justify-content-center position-absolute Testimonial-parent h-100 ">
-          <!-- Testimonial 1 -->
-          <div class="col-12 col-lg-4 col-md-6 mb-4 h-75">
-            <div class="about-us-card bg-dark rounded p-4 text-white h-100 d-flex flex-column justify-content-between">
-              <img src="images/qute.png" class="about-us-qute mb-3 w-25" alt="Quote Icon" />
-              <p class="fw-semibold lh-lg mb-3">
-                Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations. Thank you for making my home beautiful!
-              </p>
-              <div class="d-flex align-items-center mt-4">
-                <img src="images/Mask group (2).png" class="rounded-circle me-3" width="50" alt="James Bennett">
-                <div>
-                  <h5 class="mb-0 fw-semibold">James Bennett</h5>
-                  <small>Toronto, Canada</small>
-                </div>
-              </div>
+    <section class="parent">
+      <div class="container">
+        <div class="about-us">
+        <div class="right-img">
+            <img src="images/Mask group (1).png" alt="" />
+            <div class="btns">
+            <button class="btn2"><i class="fa-solid fa-arrow-left "></i></button>
+            <button class="btn1"><i class="fa-solid fa-arrow-right "></i></button>
             </div>
-          </div>
-    
-          <!-- Testimonial 2 -->
-          <div class="col-12 col-lg-4 col-md-6 mb-4 h-75">
-            <div class="about-us-card bg-dark rounded p-4 text-white h-100  d-flex flex-column justify-content-between">
-              <img src="images/qute.png" class="about-us-qute mb-5 w-25" alt="Quote Icon" />
-              <p class="fw-semibold lh-lg mb-3">
-                Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!
-              </p>
-              <div class="d-flex align-items-center mt-4 ">
-                <img src="images/Mask group 3.png" class="rounded-circle me-3" width="50" alt="Sophie Carter">
-                <div>
-                  <h5 class="mb-0 fw-semibold">Sophie Carter</h5>
-                  <small>New York, USA</small>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-    
-        <!-- Arrows for navigation -->
-        <div class="arrows text-center mt-4 position-absolute">
-          <button class="btn btn-light me-3">←</button>
-          <button class="btn btn-light me-3">→</button>
+        <div class="left-content">
+            <h2>What Our Customers Say</h2>
+            <div class="card-1">
+                <div class="head">
+                    <img src="images/qute.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="">
+                        Working with your design team was an absolute pleasure.
+                        The attention to detail and creativity exceeded my expectations. 
+                        Thank you for making my home beautiful!
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <div class="footer-img">
+                        <img src="images/Mask group (2).png" alt="">
+                    </div>
+                    <div class="footer-content">
+                        <h5>James Bennett</h5>
+                        <small>Toronto, Canada</small>
+                    </div>
+                </div>
+        </div>
+        <div class="card-2">
+            <div class="head">
+                <img src="images/qute.png" alt="">
+            </div>
+            <div class="content">
+                <p>
+                    Exceptional service! From the initial consultation to the final reveal, 
+                    your team demonstrated professionalism and a keen eye for design. 
+                    Highly recommend!
+                </p>
+            </div>
+            <div class="card-footer">
+                <div class="footer-img">
+                    <img src="images/Mask group 3.png" alt="">
+                </div>
+                <div class="footer-content">
+                    <h5>Sophie Carter</h5>
+                    <small>New York, USA</small>
+                </div>
+            </div>
+        </div>
         </div>
       </div>
+        </div>
     </section>
     
 
     <section class="newsletter py-5 text-center">
-      <div class="container col-lg-8 col-md-12 mx-auto py-5 ">
-        <h2 class="fw-semibold mb-3">
+      <div class="container col-lg-8 col-md-12 mx-auto py-5">
+        <h2 class="fw-semibold mb-3 text-center">
           Subscribe to Our Newsletter for Design Insights
         </h2>
-        <p class="text-muted mb-4">
-          Be the first to discover trends, inspirations, and special offers as
-          we bring the world of design directly to your inbox
+        <p class="text-muted mb-4 text-center">
+          Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox
         </p>
         <div class="input-group mb-3 justify-content-center">
-          <span class="input-group-text"><i class="far fa-envelope"></i></span>
           <input
             type="email"
-            class="form-control"
-            placeholder="Enter your email address"
+            class="form-control lg-w-75 px-3"
+            placeholder="Enter your email address to subscribe"
+            aria-label="Recipient's email"
+            aria-describedby="button-addon2"
           />
-          <button class="btn btn-dark">Subscribe</button>
+          <button class="btn btn-dark" type="button" id="button-addon2">Subscribe</button>
         </div>
       </div>
-     
     </section>
     
     <footer class="footer bg-dark text-white py-5">
@@ -511,10 +519,10 @@
               Subscribe to our newsletter to receive the latest news and updates
               from VivaDecor
             </p>
-            <div class="input-group">
+            <div class="input-group mb-3 w-100>
               <input
                 type="email"
-                class="form-control"
+                class="form-control "
                 placeholder="Enter your email address"
               />
               <button class="btn btn-warning text-dark">Subscribe</button>
