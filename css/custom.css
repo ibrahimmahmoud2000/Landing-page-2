@@ -117,7 +117,7 @@ button:hover {
 }
 
 /* Responsive Styles */
-@media screen (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* General Adjustments */
   .top {
     flex-direction: column;
@@ -203,6 +203,13 @@ button:hover {
   }
 }
 
-
-
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .left-content {
+    left: 10%;
+  }
+  .left-content .card-1, 
+  .left-content .card-2 {
+    padding: 20px 30px;
+  }
+}
 
